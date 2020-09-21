@@ -21,12 +21,17 @@ body {
 }
 a  {
   color: black;
+  transition: color .5s;
   position: relative;
   display: inline;
   padding: 5px;
   text-decoration: none;
   font-family: system-ui;
   font-size: small;
+}
+
+a:hover {
+  color: lightblue:
 }
 
 section {
@@ -45,9 +50,8 @@ h1 {
 }
 h2{
   text-align: center;
-  font-family:system-ui;
-  font-weight:400;
-  letter-spacing: 1.06px;
+  font-size: 28px
+  font-weight:100px;
   margin-top: 0px;
   margin-bottom: 22px;
 
@@ -90,7 +94,7 @@ button {
   background-color: white;
   border: 2px solid #EEEEEE;
   color: #1EC6F8;
-  padding: 15px 25px;
+  padding: 15px 22px;
   text-align: center;
   text-decoration: none;
   display:flex;
@@ -118,9 +122,12 @@ hr {
 
 #secfooter{
   font-family: calibri;
-  font-size:14.3px;
-  margin-top: 22px;
-  font-weight:normal;
+  font-size:14.2px;
+  margin-top: 5px;
+  padding: 0px, 0px, 0px, 15px;
+  letter-spacing: .1px;
+  font-weight: lighter;
+  display: inline-block;
 }
 
 .left1 {
@@ -128,7 +135,7 @@ hr {
   background: #ffffff;
   width: 749px;
   height: 910px;
-  margin: 51px 0px 0px 125px
+  margin: 51px 0px 0px 125px;
 }
 
 .right1  {
@@ -171,7 +178,7 @@ hr {
 
 .right2 {
   float: right;
-  background: green;
+  background: #ffffff;
   width: 360px;
   height: 910px;
   margin: -197px 0px 0px 30px;
@@ -187,10 +194,11 @@ hr {
 
 .right3 {
   float: right;
-  background: red;
+  background: #ffffff;
   width: 360px;
   height: 493px;
   margin: -1226px 0px 0px 50px;
+  image-
 }
 
 .left4 {
@@ -203,16 +211,33 @@ hr {
 
 .right4 {
   float: right;
-  background: grey;
+  background: #ffffff;
   width: 360px;
   height: 404px;
   margin: -1678px 0px 0px 50px;
 }
 
 
+/*.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.cell {
+  flex: 0 0 25%;
+  height: 100px;
+  margin-bottom: 3px;
+  background-color: #ffffff;
+}
+.cell:nth-child(3n) {
+  background-color: #ffffff;
+}*/
+
 .footer {
     display: flex;
-    justify-content: center;
+    font-style: times new roman;
+    justify-content:center;
     padding: 5px;
     background-color: #45a1ff;
     color: #fff;
