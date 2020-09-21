@@ -6,7 +6,7 @@ body {
 .container {
       width:1400px;
       height: 60px;
-      margin: 0 auto;
+      margin: auto;
       padding:2px 25px;
       border:1px solid #ffffff;
       background:#fff;
@@ -28,6 +28,7 @@ a  {
   text-decoration: none;
   font-family: system-ui;
   font-size: small;
+
 }
 
 a:hover {
@@ -137,6 +138,11 @@ hr {
   height: 910px;
   margin: 51px 0px 0px 125px;
 }
+.socialleft1 {
+  position: absolute;
+  left: 600px;
+  margin-top: -40px;
+}
 
 .right1  {
   float: right;
@@ -152,6 +158,11 @@ hr {
   font-family: calibri;
   font-weight:bold;
   margin-top: -75.5px;
+}
+
+.socialright1 {
+  position: absolute;
+  left: 980px;
 }
 
 .rectangle {
@@ -176,6 +187,12 @@ hr {
   margin: 41px 0px 0px 125px
 }
 
+.socialleft2 {
+  position: absolute;
+  left: 600px;
+  margin-top: -50px;
+}
+
 .right2 {
   float: right;
   background: #ffffff;
@@ -190,6 +207,12 @@ hr {
   width: 749px;
   height: 865px;
   margin: 41px 0px 0px 125px
+}
+
+.socialleft3 {
+  position: absolute;
+  left: 600px;
+  margin-top: -50px;
 }
 
 .right3 {
@@ -207,6 +230,12 @@ hr {
   width: 748px;
   height: 941px;
   margin: 41px 0px 0px 126px;
+}
+
+.socialleft4 {
+  position: absolute;
+  left: 600px;
+  margin-top: -50px;
 }
 
 .right4 {
@@ -239,5 +268,5 @@ hr {
     font-style: times new roman;
     justify-content:center;
     padding: 5px;
-    background-color: #45a1ff;
+    background-color: #000000;
     color: #fff;
