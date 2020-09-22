@@ -1,6 +1,6 @@
 body {
   background-color: #F5F5F5;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif, calibri;
 }
 
 .container {
@@ -14,11 +14,27 @@ body {
     }
 
 .navigation {
-  display: inline;
-  margin: 10px;
-  padding: 5px;
-  text-indent: 50px;
+  /*display: inline;
+  margin: 0px 0px 0px 0px;
+  padding: 18px 18px 18px 18px;
+  text-indent: 50px;*/
+  position:relative;
+  margin: 20px 0px 0px 0px;
+  padding-left: 10px;
+;
 }
+
+.navigation.home{
+  padding: 0px;
+}
+.navigation.contactme {
+  margin: 25px 0px 0px 0px;
+}
+
+.navigation.aboutme {
+  padding: 25px 0px 0px 5px;
+}
+
 a  {
   color: black;
   transition: color .5s;
