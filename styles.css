@@ -19,8 +19,8 @@ body {
   padding: 18px 18px 18px 18px;
   text-indent: 50px;*/
   position:relative;
-  margin: 20px 0px 0px 0px;
-  padding-left: 10px;
+  margin: 20px 0px 0px 7px;
+  padding-left: 19px;
 ;
 }
 
@@ -136,15 +136,10 @@ hr {
   border-bottom-left-radius: 50% 50%;
 }
 
-
-#secfooter{
-  font-family: calibri;
-  font-size:14.2px;
-  margin-top: 5px;
-  padding: 0px, 0px, 0px, 15px;
-  letter-spacing: .1px;
-  font-weight: lighter;
-  display: inline-block;
+.socialheading {
+  position: absolute;
+  left: 924px;
+  margin-top: -23px;
 }
 
 .left1 {
@@ -154,10 +149,23 @@ hr {
   height: 910px;
   margin: 51px 0px 0px 125px;
 }
+
+#secfooter1{
+  padding: 9px;
+  font-family: calibri;
+  font-size:14.2px;
+  margin-top: 5px;
+  padding: 0px, 0px, 0px, 15px;
+  letter-spacing: .1px;
+  font-weight: lighter;
+  display: inline-block;
+}
+
 .socialleft1 {
   position: absolute;
   left: 600px;
-  margin-top: -40px;
+  margin-top: -45px;
+
 }
 
 .right1  {
@@ -203,10 +211,21 @@ hr {
   margin: 41px 0px 0px 125px
 }
 
+#secfooter2{
+  font-family: calibri;
+  font-size:14.2px;
+  margin-top: 5px;
+  padding: 0px, 0px, 0px, 15px;
+  letter-spacing: .1px;
+  font-weight: lighter;
+  display: inline-block;
+}
+
 .socialleft2 {
   position: absolute;
   left: 600px;
   margin-top: -50px;
+  padding: 11px;
 }
 
 .right2 {
@@ -225,10 +244,21 @@ hr {
   margin: 41px 0px 0px 125px
 }
 
+#secfooter3{
+  font-family: calibri;
+  font-size:14.2px;
+  margin-top: -2px;
+  padding: 0px, 0px, 0px, 15px;
+  letter-spacing: .1px;
+  font-weight: lighter;
+  display: inline-block;
+}
+
 .socialleft3 {
   position: absolute;
   left: 600px;
   margin-top: -50px;
+  padding: 11px;
 }
 
 .right3 {
@@ -248,10 +278,21 @@ hr {
   margin: 41px 0px 0px 126px;
 }
 
+#secfooter4{
+  font-family: calibri;
+  font-size:14.2px;
+  margin-top: -3px;
+  padding: 0px, 0px, 0px, 15px;
+  letter-spacing: .1px;
+  font-weight: lighter;
+  display: inline-block;
+}
+
 .socialleft4 {
   position: absolute;
   left: 600px;
-  margin-top: -50px;
+  margin-top: -44px;
+  padding: 6px;
 }
 
 .right4 {
@@ -280,7 +321,8 @@ hr {
 }*/
 
 .footer {
-    display: flex;
+  margin-top: 42px;
+    display: inline-block;
     font-style: times new roman;
     justify-content:center;
     padding: 5px;
